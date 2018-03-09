@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.20)  6 MAR 2018 12:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.20)  8 MAR 2018 21:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -784,28 +784,40 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \c@lstlisting=\count118
+ <images/3_stage.png, id=1, 629.35126pt x 131.49126pt>
+File: images/3_stage.png Graphic file (type png)
 
-No file report.bbl.
+<use images/3_stage.png>
+Package pdftex.def Info: images/3_stage.png used on input line 36.
+(pdftex.def)             Requested size: 503.48169pt x 105.19313pt.
+
+Overfull \hbox (21.60623pt too wide) in paragraph at lines 36--37
+[][] 
+ []
+
 [1
 
-{/usr/local/texlive/2017basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./report.aux) ) 
+{/usr/local/texlive/2017basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./
+images/3_stage.png>] (./report.bbl) [2] (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 5295 strings out of 494437
- 72456 string characters out of 6166645
- 142296 words of memory out of 5000000
- 8571 multiletter control sequences out of 15000+600000
- 6514 words of font info for 24 fonts, out of 8000000 for 9000
+ 5569 strings out of 494437
+ 74612 string characters out of 6166645
+ 148307 words of memory out of 5000000
+ 8838 multiletter control sequences out of 15000+600000
+ 7198 words of font info for 26 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 39i,6n,32p,260b,219s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmbx12.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr12.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr17.pfb>
-Output written on report.pdf (1 page, 38971 bytes).
+ 39i,8n,32p,323b,973s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/201
+7basic/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive
+/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/tex
+live/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/
+texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loc
+al/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr
+/local/texlive/2017basic/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on report.pdf (2 pages, 98364 bytes).
 PDF statistics:
- 20 PDF objects out of 1000 (max. 8388607)
- 13 compressed objects within 1 object stream
+ 35 PDF objects out of 1000 (max. 8388607)
+ 23 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
