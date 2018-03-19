@@ -10,6 +10,25 @@
 \usepackage[english]{babel}
 \usepackage{color}
 
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=Python,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+
 \title{Cryptanalysis of Book-Caesar-RSA Cipher}
 
 \author{Samanvitha Basole and Shubham Pachpute\\
@@ -63,8 +82,22 @@ Decryption is done in a similar way except the following rule is applied in the 
 \subsection{RSA}
 
 % ~~~~~~~~~~~~~~~~~~~~~~~~ ALGORITHM PSEUDOCODE ~~~~~~~~~~~~~~~~~~~~~~~~
-\section{Algorithms Pseudocode}
-...
+\section{Algorithms Design}
+\subsection{Book}
+\subsection{Caesar}
+The hex input consists of letters and numbers while the key consists of numbers as offset. The below code demonstrates the main logic of the algorithm:
+\begin{lstlisting}
+output_str = ""
+for eachChar in hex_string:
+    try:
+    	# if eachChar is a number
+        digit = int(eachChar)
+        output_str += str((digit - int(YY)) % 10)
+    except:
+    	# if eachChar is a letter
+        output_str += letters[(letters.index(eachChar) + int(XX)) % 26]
+\end{lstlisting}
+\subsection{RSA}
 
 % ~~~~~~~~~~~~~~~~~~~~~~~~ DECRYPTION ~~~~~~~~~~~~~~~~~~~~~~~~
 \section{Decryption and Analysis}
