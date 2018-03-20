@@ -5,4 +5,17 @@ Bruce Busta.
 \newblock Encryption in theory and practice.
 \newblock {\em The CPA Journal}, 72(11):42, 2002.
 
+\bibitem{rsaSteps}
+S.~A. Jaju and S.~S. Chowhan.
+\newblock A modified rsa algorithm to enhance security for digital signature.
+\newblock In {\em 2015 International Conference and Workshop on Computing and
+  Communication (IEMCON)}, pages 1--5, Oct 2015.
+
+\bibitem{rsaIntro}
+Karthik, Chinnasamy, and Deepalakshmi.
+\newblock Hybrid cryptographic technique using otp:rsa.
+\newblock In {\em 2017 IEEE International Conference on Intelligent Techniques
+  in Control, Optimization and Signal Processing (INCOS)}, pages 1--4, March
+  2017.
+
 \end{thebibliography}

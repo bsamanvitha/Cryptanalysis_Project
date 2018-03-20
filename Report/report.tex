@@ -62,6 +62,8 @@ We discuss the high-level algorithm design of Book, Caesar, and RSA ciphers, the
 % ~~~~~~~~~~~~~~~~~~~~~~~~ ALGORITHM DISCUSSION ~~~~~~~~~~~~~~~~~~~~~~~~
 \section{Algorithms Discussion}
 \subsection{Book Cipher}
+
+
 \subsection{Caesar Cipher}
 Caesar cipher is a simple substitution cipher in which the alphabet is shifted a certain number of characters based on the key. It is a symmetric key algorithm, that is, the same key is used for encryption and decryption \cite{busta2002encryption}. \\
 We show the following example to demonstrate encryption and decryption using Caesar cipher: 
@@ -80,6 +82,20 @@ The result is the following ciphertext XQQXZH XQ AXTK. \\
 Decryption is done in a similar way except the following rule is applied in the second step: (number - key) mod 26.
 
 \subsection{RSA}
+RSA is an algorithm that provides digital signature as well as encryption. RSA is based on factoring, that is, it is easy to factor two numbers but it is computationally NP-C to find two exact factors for a given number. This is a public key cryptosystem, and thus, the encryption key and the decryption key are different. \cite{rsaIntro}. \\
+The RSA algorithm is as follows \cite{rsaSteps}:
+
+\begin{itemize}
+\item Select $p, q$ two large prime numbers
+\item Calculate $N = pq$
+\item Select integer $e$ relatively prime to $(p-1)(q-1)$
+\item Calculate $d$ as the multiplicative inverse of $e$ modulo $(p-1)(q-1)$
+\item Public key $(n, e)$
+\item Private key $d$
+\item Consider plaintext $M$
+\item Convert plaintext to ciphertext by $C=M^{e}mod\ N$
+\item Convert ciphertext to plaintext by $M=C^{d}mod\ N$
+\end{itemize}
 
 % ~~~~~~~~~~~~~~~~~~~~~~~~ ALGORITHM PSEUDOCODE ~~~~~~~~~~~~~~~~~~~~~~~~
 \section{Algorithms Design}
