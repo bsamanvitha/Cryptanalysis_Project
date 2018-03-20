@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.20)  20 MAR 2018 11:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.20)  20 MAR 2018 12:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -805,11 +805,11 @@ images/3_stage.png>] [2] (./report.bbl) [3] (./report.aux) )
 Here is how much of TeX's memory you used:
  5800 strings out of 494437
  77223 string characters out of 6166645
- 174269 words of memory out of 5000000
+ 171269 words of memory out of 5000000
  9057 multiletter control sequences out of 15000+600000
  10778 words of font info for 39 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 39i,8n,40p,366b,1655s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,8n,40p,366b,1641s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive
 /2017basic/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/tex
 live/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local
@@ -822,7 +822,7 @@ b></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
 mti12.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmtt10.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/cm-su
 per/sfrm1200.pfb>
-Output written on report.pdf (3 pages, 148272 bytes).
+Output written on report.pdf (3 pages, 148494 bytes).
 PDF statistics:
  54 PDF objects out of 1000 (max. 8388607)
  37 compressed objects within 1 object stream
