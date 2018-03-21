@@ -45,9 +45,13 @@ San Jose State University
 
 % ~~~~~~~~~~~~~~~~~~~~~~~~ PROBLEM STATEMENT ~~~~~~~~~~~~~~~~~~~~~~~~
 \section{Problem Statement}
-...
-
-
+From the Mystery Twister website, we attempt to solve the BCR code challenge. In this challenge, we help Alice and Bob find the treasure. Given the book text: \\
+$'SIERRA-ZERO-JULIET-SIX-YANKEE-ONE-ROMEO-PAPPAEIGHT\\
+-KILO-FIVE-UNIFORM-XRAY-XXX-BRAVO-VICTORTWO-FOUR-T\\
+ANGO-MIKE-OSCAR-HOTEL-DELTA-QUEBECKFOXTROT-ALPHA\\
+-YYY-LIMA-INDIA-THREE-WHISKEYNOVEMBER-ECHO\\
+-CHARLIE-GOLF-ZULU', $\\
+our task is to find the two words marked as XXX and YYY then use Book, Caesar, RSA ciphers to get the final output. 
 % ~~~~~~~~~~~~~~~~~~~~~~~~ APPROACH ~~~~~~~~~~~~~~~~~~~~~~~~
 \section{Approach}
 In this paper, we solve the BCR cipher consisting of a three-stage cascade: Altered book, Caesar, and RSA. Each stage uses the output of the previous one as input as shown in Figure \ref{fig:arch}.
@@ -99,8 +103,19 @@ The RSA algorithm is as follows \cite{rsaSteps}:
 \end{itemize}
 
 % ~~~~~~~~~~~~~~~~~~~~~~~~ ALGORITHM PSEUDOCODE ~~~~~~~~~~~~~~~~~~~~~~~~
-\section{Algorithms Design}
+\section{Algorithm Design}
 \subsection{Book}
+A part of the book cipher algorithm is listed below:
+\begin{lstlisting}
+xxx1 = "7"
+yyy1 = "9"
+for j in range(0, len(decodedText1)):
+    # print "IN FOR 1\n"
+    if decodedText1[i] == "XXX":
+        decodedText1[i] = xxx1
+    if decodedText1[i] == "YYY":
+        decodedText1[i] = yyy1
+\end{lstlisting}
 \subsection{Caesar}
 The hex input consists of letters and numbers while the key consists of numbers as offset. The below code demonstrates the main logic of the algorithm:
 \begin{lstlisting}
