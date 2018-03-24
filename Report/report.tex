@@ -66,8 +66,7 @@ We discuss the high-level algorithm design of Book, Caesar, and RSA ciphers, the
 % ~~~~~~~~~~~~~~~~~~~~~~~~ ALGORITHM DISCUSSION ~~~~~~~~~~~~~~~~~~~~~~~~
 \section{Algorithms Discussion}
 \subsection{Book Cipher}
-Book cipher uses letters of subsequent words in a text to encode messages. Essentially, these words form the key. 
-[example/description needed]
+Book cipher uses letters of subsequent words in a text to encode messages. Essentially, these words form the key. Book cipher is a cipher where the algorithm uses a book or a piece of text for encryption. In this algorithm we replace the words in the plaintext with the location of the words in the book or text used for encryption. It is necessary to have the word in the plaintext present in the book to be used or else, sometimes it is also replaced by using letters in the words. The main idea of the book cipher is the key used for encryption. Both the parties exchanging the information should agree to use a book or a publication available to both of them which will be used as the key. The attacker intercepting the message should be able to guess the key to be able to decrypt the message. Widely used books are the Dictionary and the Bible.
 
 \subsection{Caesar Cipher}
 Caesar cipher is a simple substitution cipher in which the alphabet is shifted a certain number of characters based on the key. It is a symmetric key algorithm, that is, the same key is used for encryption and decryption \cite{busta2002encryption}. \\
