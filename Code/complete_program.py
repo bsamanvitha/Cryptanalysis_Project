@@ -121,13 +121,13 @@ for elements in num:
     elements = finalText1[int(elements) - 1]
     finalNum1.append(elements)
 print "Final encrypt Num1: "
-print finalNum1
+print ''.join(finalNum1) + '\n'
 finalNum2 = []
 for elements in num:
     elements = finalText2[int(elements) - 1]
     finalNum2.append(elements)
 print "Final encrypt Num2: "
-print finalNum2
+print ''.join(finalNum2)
 print ''
 
 '''

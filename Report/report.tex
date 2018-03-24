@@ -104,19 +104,28 @@ The RSA algorithm is as follows \cite{rsaSteps}:
 % ~~~~~~~~~~~~~~~~~~~~~~~~ ALGORITHM PSEUDOCODE ~~~~~~~~~~~~~~~~~~~~~~~~
 \section{Algorithm Design}
 \subsection{Book}
-A part of the book cipher algorithm is listed below:
+The main logic of the book cipher algorithm is listed below in Python:
 \begin{lstlisting}
-xxx1 = "7"
-yyy1 = "9"
-for j in range(0, len(decodedText1)):
-    # print "IN FOR 1\n"
-    if decodedText1[i] == "XXX":
-        decodedText1[i] = xxx1
-    if decodedText1[i] == "YYY":
-        decodedText1[i] = yyy1
+finalText1 = []
+for elements in decodedText1:
+    # print len(decodedText1[j])
+    # print len(elements)
+    if len(elements) > 1:
+        elements = elements[0]
+        finalText1.append(elements)
+        # print elements
+        continue
+    if len(elements) == 1:
+        finalText1.append(elements)
+finalNum1 = []
+for elements in num:
+    elements = finalText1[int(elements) - 1]
+    finalNum1.append(elements)
+print "\nFinal encrypt Num1: "
+print finalNum1
 \end{lstlisting}
 \subsection{Caesar}
-The hex input consists of letters and numbers while the key consists of numbers as offset. The below code demonstrates the main logic of the algorithm:
+The hex input consists of letters and numbers while the key consists of numbers as offset. The below code demonstrates the main logic of this cipher:
 \begin{lstlisting}
 output_str = ""
 for eachChar in hex_string:
@@ -129,10 +138,30 @@ for eachChar in hex_string:
         output_str += letters[(letters.index(eachChar) + int(XX)) % 26]
 \end{lstlisting}
 \subsection{RSA}
+RSA works on the principle of factoring. Below, we have shown the code for modular inverse which is an important concept in RSA. 
+\begin{lstlisting}
+def modularInverse(a, m):
+    g, x, y = modInv_part2(a, m)
+    if g != 1:
+        raise Exception('No modular inverse')
+    return x % m
+
+def modInv_part2(a, b):
+    if a == 0:
+        return (b, 0, 1)
+    g, y, x = modInv_part2(b % a, a)
+    return (g, x - (b // a) * y, y)
+\end{lstlisting}
 
 % ~~~~~~~~~~~~~~~~~~~~~~~~ DECRYPTION ~~~~~~~~~~~~~~~~~~~~~~~~
 \section{Decryption and Analysis}
-...
+Figure \ref{fig:output} displays the results of the program consisting of the entire pipeline as illustrated in the architecture image in Figure \ref{fig:arch}. 
+\begin{figure}[h]
+  \includegraphics[scale=0.52]{output}
+  \caption{Program Output}
+  \label{fig:output}
+\end{figure}
+
 
 % ~~~~~~~~~~~~~~~~~~~~~~~~ SUBMITTING SOLUTION ~~~~~~~~~~~~~~~~~~~~~~~~
 \section{Solution Submission}
