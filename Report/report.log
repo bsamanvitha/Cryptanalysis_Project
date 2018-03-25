@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.20)  24 MAR 2018 16:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.20)  24 MAR 2018 19:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -812,32 +812,87 @@ Overfull \hbox (22.33115pt too wide) in paragraph at lines 160--161
 [][] 
  []
 
-(./report.bbl [4 <./images/output.png>]) [5] (./report.aux) ) 
+<images/submission.png, id=25, 508.90125pt x 469.755pt>
+File: images/submission.png Graphic file (type png)
+
+<use images/submission.png>
+Package pdftex.def Info: images/submission.png used on input line 169.
+(pdftex.def)             Requested size: 407.12155pt x 375.80452pt.
+
+<images/proof1.png, id=26, 1011.78pt x 350.30875pt>
+File: images/proof1.png Graphic file (type png)
+ <use images/proof1.png>
+Package pdftex.def Info: images/proof1.png used on input line 170.
+(pdftex.def)             Requested size: 505.88876pt x 175.15395pt.
+
+<images/proof2.png, id=27, 1013.7875pt x 58.2175pt>
+File: images/proof2.png Graphic file (type png)
+ <use images/proof2.png>
+Package pdftex.def Info: images/proof2.png used on input line 171.
+(pdftex.def)             Requested size: 506.89252pt x 29.10867pt.
+
+(./report.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 168--1
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--1
+
+ []
+
+
+Overfull \hbox (24.0133pt too wide) in paragraph at lines 168--1
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--1
+
+ []
+
+
+Overfull \hbox (25.01706pt too wide) in paragraph at lines 168--1
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--1
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--1
+
+ []
+
+[4 <./images/output.png>] [5 <./images/submission.png> <./images/proof1.png> <.
+/images/proof2.png>]) [6] (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 5820 strings out of 494437
- 77490 string characters out of 6166645
+ 5835 strings out of 494437
+ 77801 string characters out of 6166645
  182269 words of memory out of 5000000
- 9077 multiletter control sequences out of 15000+600000
+ 9089 multiletter control sequences out of 15000+600000
  10778 words of font info for 39 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  39i,8n,40p,863b,1200s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texliv
-e/2017basic/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/te
-xlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/loca
-l/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/
-local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
-sr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-</usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.p
-fb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
-10.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmsy8.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmti12.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmtt10.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/c
-m-super/sfrm1200.pfb>
-Output written on report.pdf (5 pages, 253305 bytes).
+{/usr/local/texlive/2017basic/texmf-d
+ist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2017basic/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017basic
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2017b
+asic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/20
+17basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive
+/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texl
+ive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
+texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/loc
+al/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr
+/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><
+/usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pf
+b>
+Output written on report.pdf (6 pages, 448180 bytes).
 PDF statistics:
- 66 PDF objects out of 1000 (max. 8388607)
- 44 compressed objects within 1 object stream
+ 75 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
